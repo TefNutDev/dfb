@@ -7,6 +7,7 @@ import {
   AiOutlineMenu,
   AiOutlinePhone,
 } from "react-icons/ai";
+import structure from '../public/assets/icons/structure.png';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -31,7 +32,7 @@ const Navbar = () => {
     <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
           <Link href='/'>
-        <Image src="/../public/assets/icons/structure.png" alt="/" width="100" height="60" />
+        <Image src={structure} alt="/" width="100" height="60" />
         </Link>
         <div>
           <ul className="hidden md:flex">
@@ -77,7 +78,7 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Image
-                src="/../public/assets/icons/structure.png"
+                src={structure}
                 width="70"
                 height="55"
                 alt=""
