@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import work1 from '../public/assets/work/work1.jpg';
+import work1 from '../public/work1.jpg';
 
 const About = () => {
   return (
