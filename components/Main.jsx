@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 import Link from "next/link";
+import logo from '../public/dfblogo.png';
 
 const Main = () => {
   return (
@@ -9,7 +10,7 @@ const Main = () => {
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <Image
-            src="/../public/dfblogo.png"
+            src={logo}
             alt="/"
             width="350"
             height="220"

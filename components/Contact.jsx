@@ -6,6 +6,7 @@ import {
   AiOutlinePhone,
 } from "react-icons/ai";
 import Link from "next/link";
+import appointment from '../public/appointment.jpg';
 
 const Contact = () => {
   return (
@@ -21,7 +22,7 @@ const Contact = () => {
               <div>
                 <Image
                   className="rounded-md"
-                  src="/../public/appointment.jpg"
+                  src={appointment}
                   alt="/"
                   width="500"
                   height="500"
