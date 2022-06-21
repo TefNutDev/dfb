@@ -121,9 +121,9 @@ const Navbar = () => {
                 <a href='tel://+353876136030' className="rounded-full mx-3 shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
                   <AiOutlinePhone size={50} />
                 </a>
-                <a onClick={()=> setNav(false)} href="/#contact" className="rounded-full mx-3 shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
+                <Link onClick={()=> setNav(false)} href="/#contact" className="rounded-full mx-3 shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
                   <AiOutlineMail size={50} />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

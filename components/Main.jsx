@@ -26,13 +26,13 @@ const Main = () => {
             Conversions to House Extensions and everything in between. We take
             pride in our work and always co-operate with our clients
             to get the job done as smoothly as possible. High attention to detail and industry approved building techniques
-            to ensure our Home Improvements are of high standard and comply with relevant building regulations. Don't hesitate
+            to ensure our Home Improvements are of high standard and comply with relevant building regulations. Don&apos;t hesitate
             to contact us now to make an enquiry! </p>
             <p className="py-4 uppercase text-sm tracking-widest underline text-bold">No New Builds</p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <a href="/#contact" className="rounded-full mx-3 shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+            <Link href="/#contact" className="rounded-full mx-3 shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
               <AiOutlineMail size={40} />
-            </a>
+            </Link>
             <a href='tel://+353876136030' className="rounded-full mx-3 shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
               <AiOutlinePhone size={40} />
             </a>
