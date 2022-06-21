@@ -1,16 +1,37 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+html {
+  scroll-behaviour: smooth;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@layer base {
+  body {
+    @apply bg-[#8c8c8e] text-[#121111] tracking-wide;
+  }
 
-* {
-  box-sizing: border-box;
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-bold;
+  }
+
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl;
+  }
+
+  h2 {
+    @apply text-2xl sm:text-3xl;
+  }
+
+  li {
+    @apply cursor-pointer;
+  }
+
+  button {
+    @apply shadow-lg shadow-gray-600 rounded-xl uppercase bg-gradient-to-r from-[rgba(227,213,213,0.73)] to-[rgba(200,200,200,0.7)] text-white;
+  }
 }
