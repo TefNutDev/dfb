@@ -1,5 +1,15 @@
 import React from "react";
 import Image from "next/image";
+import exterior from "../public/assets/icons/exterior.png";
+import roof from "../public/assets/icons/roof.png"
+import paintroller from "../public/assets/icons/paintroller.png"
+import hammer from "../public/assets/icons/hammer.png"
+import plug from "../public/assets/icons/plug.png"
+import pipe from "../public/assets/icons/pipe.png"
+import toolbox from "../public/assets/icons/toolbox.png"
+import jackhammer from "../public/assets/icons/jackhammer.png"
+import kitchen from "../public/assets/icons/kitchen.png"
+import heating from "../public/assets/icons/heating.png"
 
 const Services = () => {
   return (
@@ -13,7 +23,7 @@ const Services = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/icons/exterior.png"
+                  src={exterior}
                   alt="/"
                   width="94px"
                   height="94px"
@@ -28,7 +38,7 @@ const Services = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/icons/roof.png"
+                  src={roof}
                   alt="/"
                   width="94px"
                   height="94px"
@@ -43,7 +53,7 @@ const Services = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/icons/paintroller.png"
+                  src={paintroller}
                   alt="/"
                   width="94px"
                   height="94px"
@@ -58,7 +68,7 @@ const Services = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/icons/hammer.png"
+                  src={hammer}
                   alt="/"
                   width="94px"
                   height="94px"
@@ -73,7 +83,7 @@ const Services = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/icons/plug.png"
+                  src={plug}
                   alt="/"
                   width="94px"
                   height="94px"
@@ -88,7 +98,7 @@ const Services = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/icons/pipe.png"
+                  src={pipe}
                   alt="/"
                   width="94px"
                   height="94px"
@@ -103,7 +113,7 @@ const Services = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/icons/toolbox.png"
+                  src={toolbox}
                   alt="/"
                   width="94px"
                   height="94px"
@@ -118,7 +128,7 @@ const Services = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/icons/jackhammer.png"
+                  src={jackhammer}
                   alt="/"
                   width="94px"
                   height="94px"
@@ -134,7 +144,7 @@ const Services = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/icons/kitchen.png"
+                  src={kitchen}
                   alt="/"
                   width="94px"
                   height="94px"
@@ -149,7 +159,7 @@ const Services = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/icons/heating.png"
+                  src={heating}
                   alt="/"
                   width="94px"
                   height="94px"
