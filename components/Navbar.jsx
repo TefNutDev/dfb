@@ -29,10 +29,10 @@ const Navbar = () => {
   },[])
 
   return (
-    <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[99]' : 'fixed w-full h-20 z-[100]'}>
+    <div className={shadow ? 'fixed w-full h-12 shadow-xl z-[99]' : 'fixed w-full h-12 z-[100]'}>
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
           <Link href='/'>
-        <Image src={structure} alt="/" width="100" height="60" />
+        <Image src={structure} alt="/" width="50" height="30" />
         </Link>
         <div>
           <ul className="hidden md:flex">
