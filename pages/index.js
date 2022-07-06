@@ -15,7 +15,7 @@ export default function Home() {
         <title>DF Building Services</title>
         <meta name="description" content="Highly skilled Builder, +30 years of experience, no job too big or too small!" />
         <link rel="icon" href="/favicon.ico" />
-
+        <meta name="google-site-verification" content="QAzgWW-CBbX21AcELussICXPhiEcVpfhO1KUP61wdnk" />
       </Head>
         <Navbar />
         <Main />
